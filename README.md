@@ -77,6 +77,7 @@ python run_pre_training.py -h_feats 512 -cls_h 256 -num_layers 1 -gnn_type 'gin'
 python run_prompting.py -h_feats 512 -lr 1e-3 -bs 3000 -epochs 50
 ```
 ## Inference (test)
+First, you can download our checkpoints from [here](https://drive.google.com/drive/folders/12kQvZrnfO90qYEaFWz8s5U12QYYcXpK9?usp=drive_link) and put them in ```./checkpoints```.
 
 Using ground-truth dimers:
 ```angular2html
