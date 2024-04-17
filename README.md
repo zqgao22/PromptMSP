@@ -1,4 +1,6 @@
-# Under Construction. . .
+This is the official implementation for the following paper:
+
+[Protein Multimer Structure Prediction via Prompt Learning](https://arxiv.org/abs/2402.18813), *ICLR 2024*.
 
 
 ## Data Processing
