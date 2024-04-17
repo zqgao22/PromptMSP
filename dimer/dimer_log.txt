@@ -1,0 +1,8 @@
+Number of parameters = 525,671
+Processing protein: 6gk4
+Number of parameters = 525,671
+Processing protein: 6gk4
+Number of parameters = 525,671
+Processing protein: 6gk4
+Processing protein: 5uw8
+Processing protein: 4d6u
