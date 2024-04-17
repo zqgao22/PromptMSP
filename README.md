@@ -69,7 +69,7 @@ We need to prepare the ESMFold-produced dimers for test set multimers.
 
 Training the GIN model
 ```angular2html
-python run_pre_training.py -h_feats 512 -cls_h 256 -num_layers 1 -gnn_type 'gcn' -lr 1e-3 -bs 50 -epochs 300
+python run_pre_training.py -h_feats 512 -cls_h 256 -num_layers 1 -gnn_type 'gin' -lr 1e-3 -bs 50 -epochs 300
 ```
 
 ## Prompting
