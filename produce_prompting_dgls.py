@@ -207,5 +207,5 @@ for i in range(len(pdb_id)):
 graph_list = build_dgl(all_multimer_list,ebd_chain_list)
 # label_list = build_label(all_all_adj, complex_coor_gt, chain_all_list, pdb_id)
 print('Finally get ',len(label_list),'samples')
-save_graphs('./target_data/train_oracle_dgl_train.bin',graph_list)
-torch.save(label_list,'./target_data/rmsd_loss_train.pt')
+save_graphs('./target_data/train_prompt_dgls.bin',graph_list)
+torch.save(label_list,'./target_data/train_prompt_rmsd.pt')
